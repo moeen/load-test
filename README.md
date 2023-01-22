@@ -33,3 +33,8 @@ go test -coverprofile=coverage.out ./...
 ## Analyze the result and see the coverage
 go tool cover -func=coverage.out
 ```
+
+## TODO
+- [ ] Support HTTP Body
+- [ ] Support Basic Authentication
+- [ ] Support Custom Headers
